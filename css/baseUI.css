@@ -1,0 +1,32 @@
+/* 自定义alert */
+#myAlert {
+	z-index: 1000;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	width: 200px;
+	height: 150px;
+	padding: 25px 0;
+	margin-left: -100px;
+	margin-top: -100px;
+	text-align: center;
+	background: yellow;
+}
+#myAlert #close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+/* 遮罩层 */
+#mask {
+	z-index: 999;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .15;
+	filter: alpha(opacity=15);
+}
